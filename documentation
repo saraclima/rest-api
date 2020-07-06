@@ -1,0 +1,55 @@
+------------------------
+Lire tous les magasin
+------------------------
+Méthode GET
+/api-rest/magasins/lire.php
+
+------------------------
+Lire un magasin
+------------------------
+Méthode GET
+/api-rest/magasins/lire_un.php
+
+input json:
+{
+    "id": "1"
+}
+
+------------------------
+Modifier
+------------------------
+/api-rest/magasins/modifier.php
+Méthode PUT
+
+input json:
+{
+    "id": "1",
+    "nom": "autre",
+    "ville": "autre",
+    "cp": "00000"
+}
+
+------------------------
+Supprimer
+------------------------
+Méthode DELETE
+/api-rest/magasins/supprimer.php
+
+input json:
+{
+    "id": "1"
+}
+
+------------------------
+Créer
+------------------------
+Méthode POST
+/api-rest/magasins/creer.php
+
+input json:
+{
+    "nom":"new"
+    "ville":"new",
+    "cp":"new"
+
+}
